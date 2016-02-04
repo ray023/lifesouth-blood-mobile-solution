@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="9b153b36-1159-456f-87c9-2e6e28b3b791" ChangeDateTime="01/19/2016 18:57:21">
+    <Property Name="ElementName" Value="[dbo].[BloodMobileDrive].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[BloodMobileDrive]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DriveId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ec774fa0-7d72-4219-b8d1-3e429c3e6bcb" ChangeDateTime="01/21/2016 04:44:30">
+    <Property Name="ElementName" Value="[dbo].[MergedDonorSources].[SourceId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MergedDonorSources]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SourceTableKeyId" />
+  </Operation>
+</Operations>

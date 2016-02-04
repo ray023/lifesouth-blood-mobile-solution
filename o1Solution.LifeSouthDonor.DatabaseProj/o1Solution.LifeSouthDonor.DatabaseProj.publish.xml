@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseName>o1Solution.LifeSouthDonor.Db</TargetDatabaseName>
+    <DeployScriptFileName>o1Solution.LifeSouthDonor.Db.sql</DeployScriptFileName>
+    <TargetConnectionString>Data Source=azureServerSourceWebsite.net,1433;User ID=ID_GOES_HERE;Pooling=False</TargetConnectionString>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
+  </PropertyGroup>
+</Project>
